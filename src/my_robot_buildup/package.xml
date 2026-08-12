@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>my_robot_buildup</name>
+  <name>chip_buildup</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="gage.hepworth@gmail.com">pixledmango</maintainer>
@@ -17,7 +17,7 @@
   <depend>ament_index_python</depend>
   <depend>xacro</depend>
   <depend>robot_state_publisher</depend>
-  <depend>my_robot_description</depend>
+  <depend>chip_description</depend>
 
   <export>
     <build_type>ament_cmake</build_type>

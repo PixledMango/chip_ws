@@ -11,7 +11,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time')
 
     # Process the URDF file
-    pkg_path = get_package_share_path('my_robot_description')
+    pkg_path = get_package_share_path('chip_description')
     xacro_file = pkg_path/'description'/'robot.xacro'
     robot_description_config = xacro.process_file(xacro_file).toxml()
 
